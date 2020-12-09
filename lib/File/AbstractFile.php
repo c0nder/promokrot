@@ -99,7 +99,7 @@
         public function checkForRestrictions()
         {
             $conditions = $this->_conditions;
-            $restrictions = $this->_restrictions;
+            $restrictions = $this->getRestrictions();
 
             if (!empty($conditions) && !empty($restrictions)) {
                 foreach ($conditions as $conditionName => $conditionValue) {
