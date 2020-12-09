@@ -1,0 +1,18 @@
+{
+    "name": "sokolovartem/promokrot-rasha",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Sokolov",
+            "email": "sokolovartem6@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lib\\": "lib"
+        }
+    },
+    "require": {
+        "symfony/yaml": "2.0.*"
+    }
+}
